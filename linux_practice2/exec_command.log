@@ -1,0 +1,301 @@
+60  ls test1_copy
+   61  rm test1_copy/*.php
+   62  ls test1_copy
+   63  ls
+   64  ls test1
+   65  ls test1_copy
+   66  ls test2
+   67  cat README.md
+   68  cd /home
+   69  echo '# Hello World' > README.md
+   70  cat README.md
+   71  echo '# Server Lesson' > README.md
+   72  cat README.md
+   73  cd /home
+   74  echo 'Linux Practice' >> README.md
+   75  echo '-----------------' >> README.md
+   76  cat README.md
+   77  cd /home
+   78  vi README.md
+   79  cd /root
+   80  mkdir server_lesson && cd server_lesson
+   81  s
+   82  ls
+   83  yum update -y && yum -y install git
+   84  git version
+   85  git init
+   86  ls -a
+   87  ls .git
+   88  touch first.txt
+   89  ls
+   90  ls /server_lesson
+   91  ls
+   92  cd /server_lesson
+   93  pwd
+   94  mkdir linux_practice1
+   95  ls
+   96  cd linux_practice1
+   97  mkdir public
+   98  cd public
+   99  touch index.php
+  100  ls
+  101  cd /server_lesson
+  102  cd server_lesson
+  103  cd /root
+  104  ls
+  105  cd sever_lesson
+  106  cd -r server_lesson
+  107  ls
+  108  cd server_lesson
+  109  ls
+  110  cd /root
+  111  ls
+  112  ls
+  113  rm anaconda-ks.cfg
+  114  ls
+  115  touch first.txt
+  116  ls
+  117  cd server_lesson
+  118  ls
+  119  cd /root
+  120  ls
+  121  rm first.txt
+  122  ls
+  123  cd server_lesson
+  124  ls
+  125  cd linux_practice1
+  126  ls
+  127  ls linux_practice1/public
+  128  ls /server_lesson/linux_practice1/public
+  129  ls public
+  130  cd public
+  131  cp index.php index_bk.php
+  132  ls
+  133  cd server_lesson
+  134  cd /root/server_lesson
+  135  ls
+  136  cd linux_practice1
+  137  ls
+  138  cp -r public tmp
+  139  ls
+  140  cd tmp
+  141  ls
+  142  cd /root
+  143  ls
+  144  cd server_lesson
+  145  ls
+  146  cd linux_practice1
+  147  ls
+  148  rm tmp/index_bk.php
+  149  ls
+  150  cd tmp
+  151  ls
+  152  ls
+  153  cd /root
+  154  ls
+  155  touch README.md
+  156  ls
+  157  vi README.md
+  158  ls
+  159  vi README.md
+  160  vi README.md
+  161  ls
+  162  cd /rot
+  163  cd /root
+  164  ls
+  165  cd server_lesson
+  166  ls
+  167  ls linux_practice1
+  168  vi README.md
+  169  cat README.md
+  170  pwd
+  171  ls
+  172  mkdir linux_practice2
+  173  ls
+  174  mkdir documents
+  175  ls
+  176  rm -r documents
+  177  ls
+  178  cd linux_practice2
+  179  ls
+  180  mkdir documents
+  181  ls
+  182  cd documents
+  183  ls
+  184  touch gizumo{01..50}.md
+  185  ls
+  186  cd /root
+  187  ls
+  188  cd server_lesson
+  189  ls
+  190  cd linux_practice2
+  191  ls
+  192  mkdir trash
+  193  ls
+  194  mv documents/gizumo{20..40}.md trash
+  195  ls
+  196  cd trash
+  197  ls
+  198  cd /root
+  199  ls
+  200  cd server_lesson
+  201  ls
+  202  cd linux_practice2
+  203  ls
+  204  touch .gitignore
+  205  ls
+  206  ls -a
+  207  vi .gitignore
+  208  ls .gitignore
+  209  cd .gitignore
+  210  cat .gitignore
+  211  ls
+  212  vi .gitignore
+  213  ls trash
+  214  vi .gitignore
+  215  vi .gitignore
+  216  ls trash
+  217  vi .gitignore
+  218  ls
+  219  ls trash
+  220  vi gitignore
+  221  ls
+  222  cd trash
+  223  ls
+  224  ls -a
+  225  ls .
+  226  ls -a trash
+  227  ls trash
+  228  cd /root
+  229  ls
+  230  cd server_lesson
+  231  ls
+  232  cd linux_practice2
+  233  ls
+  234  ls -a
+  235  vi gitignore
+  236  ls
+  237  cd gitignore
+  238  ls
+  239  ls -a
+  240  rm gitignore
+  241  ls
+  242  vi .gitignore
+  243  ls
+  244  ls trash
+  245  ls git ls-files
+  246  git ls-files
+  247  git ls-files --others
+  248  git ls-files
+  249  ls
+  250  vi .gitignore
+  251  git ls-files --others
+  252  vi .gitignore
+  253  git ls-files
+  254  vi .gitignore
+  255  git ls-files --others
+  256  ls
+  257  git status
+  258  ls
+  259  cd /root
+  260  git status
+  261  ls
+  262  cd server_lesson
+  263  ls
+  264  git status
+  265  ls
+  266  cd linux_practice2
+  267  ls
+  268  ls -a
+  269  vi .gitignore
+  270  cd /root
+  271  cd server_lesson
+  272  ls
+  273  git status
+  274  git ls-files
+  275  ls
+  276  cd linux_practice2
+  277  ls
+  278  cd documents
+  279  git ls-files
+  280  git ls
+  281  git status
+  282  git status files
+  283  ls
+  284  cd /root
+  285  ls
+  286  git log
+  287  git status
+  288  cd server_lesson
+  289  ls
+  290  git log
+  291  git status
+  292  ls
+  293  cd linux_practice2
+  294  ls
+  295  trash
+  296  ls
+  297  ls trash
+  298  git ls-files
+  299  ls trash
+  300  ls
+  301  ls -a
+  302  vi .gitignore
+  303  ls trash
+  304  ls
+  305  vi gitignore
+  306  ls
+  307  ls -a
+  308  vi .gitignore
+  309  history 300
+  310  history 300  ls
+  311    266  cd linux_practice2
+  312    267  ls
+  313    268  ls -a
+  314    269  vi .gitignore
+  315    270  cd /root
+  316    271  cd server_lesson
+  317    272  ls
+  318    273  git status
+  319    274  git ls-files
+  320    275  ls
+  321    276  cd linux_practice2
+  322    277  ls
+  323    278  cd documents
+  324    279  git ls-files
+  325    280  git ls
+  326    281  git status
+  327    282  git status files
+  328    283  ls
+  329    284  cd /root
+  330    285  ls
+  331    286  git log
+  332    287  git status
+  333    288  cd server_lesson
+  334    289  ls
+  335    290  git log
+  336    291  git status
+  337    292  ls
+  338    293  cd linux_practice2
+  339    294  ls
+  340    295  trash
+  341    296  ls
+  342    297  ls trash
+  343    298  git ls-files
+  344    299  ls trash
+  345    300  ls
+  346    301  ls -a
+  347    302  vi .gitignore
+  348    303  ls trash
+  349    304  ls
+  350    305  vi gitignore
+  351    306  ls
+  352    307  ls -a
+  353    308  vi .gitignore
+  354    309  history 300
+  355  ls
+  356  touch exec_command.log
+  357  ls
+  358  vi exec_command.log
+  359  history 300
+
